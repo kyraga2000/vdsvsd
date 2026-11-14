@@ -81,4 +81,4 @@ RUN cat > /app/config.json <<'EOF'
 EOF
 
 # Запуск программы
-CMD ["/app/program", "-c", "/app/config.json"]
+CMD ["/app/program"]
