@@ -8,6 +8,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
+ENV TERM=xterm
 
 # Прямая ссылка на программу Linux AMD64
 ARG DOWNLOAD_URL="https://github.com/0x8fv/Twitch-Channel-Points-Miner/releases/download/1.5/TwitchChannelPointsMiner-linux-amd64"
